@@ -419,15 +419,15 @@ footer p a{
 
         .fb,.mail,.wp,.lk{
 
-                height: 35px;
-                width: 35px;
+                height: 40px;
+                width: 40px;
                 margin: 15px;
         }
         
         .fb:hover,.mail:hover,.wp:hover,.lk:hover{
             
-              height: 40px;
-              width: 40px;
+              height: 38px;
+              width: 38px;
              
         }
         
