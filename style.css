@@ -484,7 +484,7 @@ footer p a{
         .contenu1 img{
 
                 height: 350px;
-                width: 380;
+                width: 350;
                 border: none;
                
         }
@@ -614,6 +614,10 @@ footer p a{
                 height: 400px;
                 width: 500px;
         }
+
+        .contenu h3{
+                margin-top: 80px;
+         }
 
 
         .services {
