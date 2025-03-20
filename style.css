@@ -93,9 +93,9 @@ header{
 
 .fb:hover,.mail:hover,.wp:hover,.lk:hover{
 
-      height: 45px;
-      width: 45px;
-      transition: 0.8s;
+      height: 48px;
+      width: 48px;
+      transition: 0.2s;
 }
 
  .btn-contact {
