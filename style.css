@@ -91,13 +91,6 @@ header{
         background: #e2e2fd;
 }
 
-.fb:hover,.mail:hover,.wp:hover,.lk:hover{
-
-      height: 48px;
-      width: 48px;
-      transition: 0.2s;
-}
-
  .btn-contact {
         
         border-radius: 50px;
@@ -422,13 +415,6 @@ footer p a{
                 height: 40px;
                 width: 40px;
                 margin: 15px;
-        }
-        
-        .fb:hover,.mail:hover,.wp:hover,.lk:hover{
-            
-              height: 38px;
-              width: 38px;
-             
         }
         
         .btn-contact {
