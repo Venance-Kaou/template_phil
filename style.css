@@ -85,6 +85,8 @@ header{
         border-radius: 100%;
         overflow: hidden;
         margin: 10px 30px;
+        outline: none;
+        cursor: pointer;
 }
 
 .lk {
@@ -136,6 +138,7 @@ header{
 .section-2 {
 
         margin: 0px 0px 140px 0px;
+        
 }
 
 .section-2 h1 {
@@ -161,7 +164,7 @@ header{
 }
 
 .contenu1 img{
-        height: 400px;
+        height: 350px;
         width: 350px;
         position: relative;
         border-radius: 50px;
@@ -205,12 +208,14 @@ header{
 
 .services {
         margin-bottom: 140px;
+        width: 100%;
 }
 
 .section-service {
 
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
       justify-content: center;
 }
 
@@ -227,7 +232,7 @@ header{
       border: 2px solid rgb(186, 186, 236);
       height: auto;
       width: 600px;
-      margin:20px 30px ;
+      margin:20px 30px;
       padding: 10px 0px 20px 0px;
       box-shadow: -1px -0.5px 10px 4px rgb(126, 126, 238);
       background: rgb(205, 205, 236);
