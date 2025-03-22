@@ -82,9 +82,9 @@ header{
 .fb,.mail,.wp,.lk{
         height: 50px;
         width: 50px;
-        border-radius: 100%;
+        border-radius: 30px;
         overflow: hidden;
-        margin: 10px 30px;
+        margin: 10px ;
         outline: none;
         cursor: pointer;
 }
@@ -419,7 +419,7 @@ footer p a{
 
                 height: 40px;
                 width: 40px;
-                margin: 15px;
+                margin: auto;
         }
         
         .btn-contact {
