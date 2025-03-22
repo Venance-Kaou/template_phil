@@ -57,11 +57,11 @@ header{
 
 .bannière{
 
-        min-height: 120vh;
+        min-height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 120hv;
+        height: 80hv;
         width: 100%;
         position: relative;
         align-items: center;
@@ -99,7 +99,7 @@ header{
         
         border-radius: 50px;
         background: white;
-        color: rgb(5, 5, 116);
+        color: rgb(23, 3, 207);
         text-decoration: none;
         padding: 10px;
         font-weight: 700;
@@ -170,20 +170,21 @@ header{
         width: 350px;
         position: relative;
         border-radius: 50px;
-        border: 5px solid blue;
+        border: 4px solid rgb(23, 3, 207);
         border-right: none;
         background: rgb(175, 175, 224);
 }
 
 .contenu1 .box .p1{
         font-size: 14px;
-        color: rgb(58, 58, 233);
+        color: rgb(23, 3, 207);
         border: 1px solid #fff;
         width: auto;
         padding: 10px 0px;
         text-align: center;
         border-radius: 10px;
-        box-shadow:2px 2px 4px 2px rgb(90, 90, 227);
+        /* box-shadow:2px 2px 4px 1px rgb(23, 3, 207); */
+        box-shadow: 0px 0px 10px 2px rgb(126, 126, 238);
 }
 .contenu1 .box .p2{
         
@@ -231,20 +232,20 @@ header{
 
 .service {
 
-      border: 2px solid rgb(186, 186, 236);
+      border: 2px solid rgb(23, 3, 207);
       height: auto;
       width: 600px;
       margin:20px 30px;
       padding: 10px 0px 20px 0px;
-      box-shadow: -1px -0.5px 10px 4px rgb(126, 126, 238);
+      box-shadow: -1px -0.5px 10px 1px rgb(23, 3, 207);
       background: rgb(205, 205, 236);
       
 }
 
 
 .service h4{
-      color: rgb(70, 70, 199);
-      border: 3px solid rgb(78, 78, 176);
+      color: rgb(23, 3, 207);
+      border: 3px solid rgb(23, 3, 207);
       border-radius: 8px;
       height: 30px;
       width: 30px;
@@ -256,7 +257,7 @@ header{
 }
 .service h3{
 
-      color: rgb(71, 71, 225);
+      color: rgb(23, 3, 207);
       text-align: center;
 
 }
@@ -269,7 +270,7 @@ header{
 }
 
 .service-en-savoir-plus {
-      color: blue;
+      color: rgb(23, 3, 207);
       font-weight: 700;
 }
 
@@ -311,7 +312,7 @@ header{
 
 .experience h3{
 
-      color: rgb(34, 34, 145);
+      color: rgb(23, 3, 207);
       padding: 10px;
       font-weight: 900;
       
@@ -341,8 +342,8 @@ header{
       text-align: center;
       height: auto;
       width: 80%;
-      border: 2px solid rgb(96, 96, 135);
-      box-shadow: 0px 0px 10px 2px rgb(114, 114, 198);
+      border: 2px solid rgb(186, 186, 236);
+      box-shadow: 0px 0px 10px 2px rgb(126, 126, 238);
       background: rgb(227, 223, 230);
       margin:50px auto;
       padding: 50px 0px;
@@ -352,7 +353,7 @@ header{
 .div-contact input , textarea {
       padding: 10px;
       width: 40%;
-      border: 3px solid rgb(66, 66, 198);
+      border: 2px solid rgb(23, 3, 207);
       border-radius: 6px;
       outline: none;
       resize: none;
@@ -363,9 +364,9 @@ header{
 
       padding: 6px;
       width: 40%;
-      border: 3px solid rgb(4, 4, 247);
+      border: 2px solid rgb(23, 3, 207);
       border-radius: 6px;
-      background: blue;
+      background: rgb(23, 3, 207);
       color: #fff;
       font-size: 18px;
       text-transform: uppercase;
@@ -411,9 +412,9 @@ footer p a{
         
         .bannière{ 
         
-                min-height: 60vh;
+                min-height: 50vh;
                 width: 100%;
-                height: 60vh;
+                height: 50vh;
                 margin-bottom: 60px;     
         }  
 
