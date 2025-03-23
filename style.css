@@ -80,14 +80,15 @@ header{
         text-align: center;
 }
 .fb,.mail,.wp,.lk{
-        height: 50px;
+
+        /* height: 50px;
         width: 50px;
         border-radius: 30px;
         overflow: hidden;
         margin: 10px ;
         display: inline-block;
         outline: none;
-        cursor: pointer;
+        cursor: pointer; */
 }
 
 
@@ -115,6 +116,17 @@ header{
 
         margin: 0px auto;
         width: 100%;
+ }
+
+ .contenu a {
+        margin: 0 10px;
+        color: #000;
+        font-size: 24px;
+        text-decoration: none;
+ }
+
+ .contenu a:hover {
+        color: #0077b5;
  }
 
  .contenu-texte{
@@ -232,12 +244,12 @@ header{
 
 .service {
 
-      border: 2px solid rgb(23, 3, 207);
+      /* border: 1px solid rgb(23, 3, 207); */
       height: auto;
       width: 600px;
       margin:20px 30px;
       padding: 10px 0px 20px 0px;
-      box-shadow: -1px -0.5px 10px 1px rgb(23, 3, 207);
+      box-shadow: 0px 0px 5px 0px rgb(23, 3, 207);
       background: rgb(205, 205, 236);
       
 }
@@ -412,18 +424,18 @@ footer p a{
         
         .bannière{ 
         
-                min-height: 50vh;
+                min-height: 60vh;
                 width: 100%;
-                height: 50vh;
+                height: 60vh;
                 margin-bottom: 60px;     
         }  
 
         .fb,.mail,.wp,.lk{
 
 
-                height: 40px;
+                /* height: 40px;
                 width: 40px;
-                margin: 5px ;
+                margin: 5px ; */
         }
         
         .btn-contact {
