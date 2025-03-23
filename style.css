@@ -583,6 +583,12 @@ footer p a{
         footer{
               height: 150px;   
         }
+
+        footer p{
+
+                padding: 40px 0px 0px 0px;
+                font-size: 15px;
+          }
                
 }
 
