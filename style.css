@@ -57,11 +57,11 @@ header{
 
 .bannière{
 
-        min-height: 80vh;
+        min-height: 70vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 80hv;
+        height: 70hv;
         width: 100%;
         position: relative;
         align-items: center;
@@ -81,14 +81,13 @@ header{
 }
 .fb,.mail,.wp,.lk{
 
-        /* height: 50px;
-        width: 50px;
-        border-radius: 30px;
+        margin: 10px 15px;
+        width: 40px;
+        border-radius: 100%;
+        border: none;
         overflow: hidden;
-        margin: 10px ;
-        display: inline-block;
         outline: none;
-        cursor: pointer; */
+        cursor: pointer;
 }
 
 
@@ -116,13 +115,6 @@ header{
 
         margin: 0px auto;
         width: 100%;
- }
-
- .contenu a {
-        margin: 0 10px;
-        color: #000;
-        font-size: 24px;
-        text-decoration: none;
  }
 
  .contenu a:hover {
@@ -429,14 +421,6 @@ footer p a{
                 height: 60vh;
                 margin-bottom: 60px;     
         }  
-
-        .fb,.mail,.wp,.lk{
-
-
-                /* height: 40px;
-                width: 40px;
-                margin: 5px ; */
-        }
         
         .btn-contact {
                 padding: 12px;
