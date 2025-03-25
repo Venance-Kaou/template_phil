@@ -26,8 +26,16 @@ header{
         align-items: center;
         transition: 0.5s;
         margin: 0px;
+        height: 70px;
         
 }
+
+html {
+     
+        scroll-padding-top: 70px ;  /* Pour que le titre reste visible après un scroll*/
+        scroll-behavior: smooth; /* Pour une transition fluide lors du défilement*/
+   
+   }
 
 .navbar{
 
