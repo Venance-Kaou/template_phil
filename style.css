@@ -67,6 +67,20 @@ header {
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* Bouton hamburger */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1100;
+}
+
 /* Section Bannière */
 .banniere {
     min-height: 100vh;
@@ -79,7 +93,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     text-align: center;
-    padding: 100px 20px 50px;
+    padding: 200px 10px 150px;
 }
 
 .banniere .contenu {
@@ -93,7 +107,7 @@ header {
 }
 
 .contenu h1 {
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(2rem, 5vw, 3rem);
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -233,7 +247,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 30px;
 }
 
@@ -439,17 +453,40 @@ footer a:hover {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .navbar {
-        gap: 15px;
+      .menu-toggle {
+        display: block;
     }
-    
+
+    .navbar {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: #1703cf;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        gap: 20px;
+        padding: 0 0 20px 0;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
     .navbar li a {
-        font-size: 14px;
-        padding: 8px 12px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .contenu h1, .contenu h2 {
+        font-size: 1.3rem;
     }
     
     .banniere {
-        padding: 120px 15px 40px;
+        padding: 50px 10px 10px;
         background-attachment: scroll;
     }
     
@@ -464,7 +501,7 @@ footer a:hover {
     }
     
     .description p {
-        text-align: left;
+        text-align: center;
     }
     
     .services-grid {

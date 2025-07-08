@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+   <header>
         <nav>
-            <ul class="navbar">
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <ul class="navbar" id="navbar">
                 <li><a href="#section-apropos">À propos</a></li>
                 <li><a href="#section-service">Services</a></li>
                 <li><a href="#section-experience">Expériences</a></li>
@@ -19,12 +20,13 @@
             </ul>
         </nav>
     </header>
+
     
     <main>
         <section class="banniere" id="banniere">
             <div class="contenu">
+                <h1 class="contenu-texte"> Développeur Web Freelance </h1>
                 <h2 class="contenu-texte">Bienvenue dans mon univers !</h2>
-                <h1 class="contenu-texte">Freelance Web | Développeur Web</h1>
                 <p class="contenu-texte">Passionné par la création web, je fusionne design et code pour donner vie à des expériences en ligne exceptionnelles</p>
             </div>
 
@@ -175,5 +177,21 @@
             Site web créé avec HTML et CSS.
         </p>
     </footer>
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('navbar');
+        const navLinks = document.querySelectorAll('.navbar a');
+
+        toggleBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+
 </body>
 </html>
